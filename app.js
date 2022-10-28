@@ -1,7 +1,7 @@
 const config = require('dotenv').config()
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 5000
 const sqlite3 = require('sqlite3').verbose();
 const db = new sqlite3.Database('something.sqlite');
 
