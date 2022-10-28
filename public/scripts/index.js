@@ -35,7 +35,7 @@ const onClick = async function() {
   const result = await response.json()
   const url = result.data[0].url;
 
-  const response = await fetch("/submit", {
+  const submitRes = await fetch("/submit", {
     method: "POST",
     body: JSON.stringify({
       url: url,
@@ -45,6 +45,8 @@ const onClick = async function() {
       "Content-Type": "application/json",
     }
   });
+
+  location.reload();
 }
 
 $('.generate').click(onClick);
