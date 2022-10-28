@@ -4,7 +4,9 @@ const onClick = async function() {
   const input = $('#prompt').val();
   const tableNumber = $('#tableInput').val();
   if (!input) {
-    alert('No input provided');
+    alert('No prompt provided');
+  } else if (!tableNumber) {
+    alert('No table number selected');
   } else {
     $('.spinnerContainer').css("display", "flex");
   }
