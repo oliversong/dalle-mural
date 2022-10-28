@@ -4,14 +4,229 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Aight</title>
+    <title>I &amp; O</title>
 
-    <link rel="icon" type="image/png" href="/images/icon.png"/>
-
-    <link rel="stylesheet" href="/css/normalize.css"/>
-    <link rel="stylesheet" href="/css/base.css">
+    <link rel="icon" type="image/png" href="/images/favicon.ico"/>
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- lol i didn't have a lot of time -->
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
 </head>
 <body>
-  <h1>nice</h1>
+  <div class="content">
+    <h1 class="hero">Isabella and Oliver's Wedding Mural</h1>
+    <div class="form">
+      <select id="tableInput" name="table">
+        <option disabled selected>Table Number</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17a">17a</option>
+        <option value="17b">17b</option>
+        <option value="18a">18a</option>
+        <option value="18b">18b</option>
+        <option value="19a">19a</option>
+        <option value="19b">19b</option>
+        <option value="20">20</option>
+      </select>
+
+      <input id="prompt" type="text" name="prompt" placeholder="Prompt">
+      <button class="generate">Generate</button>
+    </div>
+    <div>
+      <div class="grid">
+        <div class="row">
+          <% if (table1Image) { %>
+            <img src="<%= table1Image %>" />
+          <% } else { %>
+            <div class="table-entry">
+              Table 1
+            </div>
+          <% } %>
+          <% if (table2Image) { %>
+            <img src="<%= table2Image %>" />
+          <% } else { %>
+            <div class="table-entry">
+              Table 2
+            </div>
+          <% } %>
+          <% if (table3Image) { %>
+            <img src="<%= table3Image %>" />
+          <% } else { %>
+            <div class="table-entry">
+              Table 3
+            </div>
+          <% } %>
+          <% if (table4Image) { %>
+            <img src="<%= table4Image %>" />
+          <% } else { %>
+            <div class="table-entry">
+              Table 4
+            </div>
+          <% } %>
+          <% if (table5Image) { %>
+            <img src="<%= table5Image %>" />
+          <% } else { %>
+            <div class="table-entry">
+              Table 5
+            </div>
+          <% } %>
+        </div>
+        <div class="row">
+          <% if (table1Image) { %>
+            <img src="<%= table1Image %>" />
+          <% } else { %>
+            <div class="table-entry">
+              Table 6
+            </div>
+          <% } %>
+          <% if (table2Image) { %>
+            <img src="<%= table2Image %>" />
+          <% } else { %>
+            <div class="table-entry">
+              Table 2
+            </div>
+          <% } %>
+          <% if (table3Image) { %>
+            <img src="<%= table3Image %>" />
+          <% } else { %>
+            <div class="table-entry">
+              Table 3
+            </div>
+          <% } %>
+          <% if (table4Image) { %>
+            <img src="<%= table4Image %>" />
+          <% } else { %>
+            <div class="table-entry">
+              Table 4
+            </div>
+          <% } %>
+          <% if (table5Image) { %>
+            <img src="<%= table5Image %>" />
+          <% } else { %>
+            <div class="table-entry">
+              Table 5
+            </div>
+          <% } %>
+        </div>
+        <div class="row">
+          <% if (table1Image) { %>
+            <img src="<%= table1Image %>" />
+          <% } else { %>
+            <div class="table-entry">
+              Table 11
+            </div>
+          <% } %>
+          <% if (table2Image) { %>
+            <img src="<%= table2Image %>" />
+          <% } else { %>
+            <div class="table-entry">
+              Table 2
+            </div>
+          <% } %>
+          <% if (table3Image) { %>
+            <img src="<%= table3Image %>" />
+          <% } else { %>
+            <div class="table-entry">
+              Table 3
+            </div>
+          <% } %>
+          <% if (table4Image) { %>
+            <img src="<%= table4Image %>" />
+          <% } else { %>
+            <div class="table-entry">
+              Table 4
+            </div>
+          <% } %>
+          <% if (table5Image) { %>
+            <img src="<%= table5Image %>" />
+          <% } else { %>
+            <div class="table-entry">
+              Table 5
+            </div>
+          <% } %>
+        </div>
+        <div class="row">
+          <% if (table1Image) { %>
+            <img src="<%= table1Image %>" />
+          <% } else { %>
+            <div class="table-entry">
+              Table 16
+            </div>
+          <% } %>
+          <% if (table2Image) { %>
+            <img src="<%= table2Image %>" />
+          <% } else { %>
+            <div class="table-entry">
+              Table 17a
+            </div>
+          <% } %>
+          <% if (table3Image) { %>
+            <img src="<%= table3Image %>" />
+          <% } else { %>
+            <div class="table-entry">
+              Table 17b
+            </div>
+          <% } %>
+          <% if (table4Image) { %>
+            <img src="<%= table4Image %>" />
+          <% } else { %>
+            <div class="table-entry">
+              Table 18a
+            </div>
+          <% } %>
+          <% if (table5Image) { %>
+            <img src="<%= table5Image %>" />
+          <% } else { %>
+            <div class="table-entry">
+              Table 18b
+            </div>
+          <% } %>
+        </div>
+        <div class="row">
+          <% if (table1Image) { %>
+            <img class="table-entry filled" src="<%= table1Image %>" />
+          <% } else { %>
+            <div class="table-entry">
+              Table 19a
+            </div>
+          <% } %>
+          <% if (table2Image) { %>
+            <img class="table-entry filled" src="<%= table1Image %>" />
+          <% } else { %>
+            <div class="table-entry">
+              Table 19b
+            </div>
+          <% } %>
+          <% if (table3Image) { %>
+            <img class="table-entry filled" src="<%= table1Image %>" />
+          <% } else { %>
+            <div class="table-entry">
+              Table 20
+            </div>
+          <% } %>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img id="result" />
+  <div class="spinnerContainer">
+    <div class="lds-dual-ring spinner"></div>
+  </div>
+
+  <script>const jank_secret = '<%= secret %>';</script>
+  <script src="/scripts/index.js"></script>
 </body>
 </html>
