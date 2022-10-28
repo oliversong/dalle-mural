@@ -121,6 +121,7 @@ h1 {
   font-family: 'AvenirNextLTW01';
   background-color: #EFEEEC;
   border: 1px solid #ccc;
+  border-radius: 1px;
 }
 
 .inputGroup {
@@ -138,6 +139,7 @@ h1 {
     border: 1px solid #ccc;
     width: 143px;
     border-right: none;
+    border-radius: 1px 0px 0px 1px;
 }
 
 #prompt {
@@ -150,9 +152,11 @@ h1 {
   font-family: 'AvenirNextLTW01';
   background-color: #EFEEEC;
   border: 1px solid #ccc;
+  border-radius: 0px 1px 1px 0px;
 }
 
 .generate {
+  border-radius: 1px;
   color: #2c2b2b;
   width: 98%;
   height: 50px;
