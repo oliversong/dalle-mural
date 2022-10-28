@@ -122,6 +122,23 @@ h1 {
   border: 1px solid #ccc;
 }
 
+.inputGroup {
+  display: flex;
+  width: 98%;
+}
+
+#promptHead{
+    height: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    font-family: 'AvenirNextLTW01';
+    background-color: #dfdfdf;
+    border: 1px solid #ccc;
+    width: 143px;
+    border-right: none;
+}
+
 #prompt {
   width: 98%;
   height: 50px;

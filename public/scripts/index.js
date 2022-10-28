@@ -15,7 +15,7 @@ const onClick = async function() {
     method: "POST",
     body: JSON.stringify({
       model: "image-alpha-001",
-      prompt: input,
+      prompt: "Oliver and Isabella, an asian couple, " + input,
       num_images: 1,
       size: "1024x1024",
       response_format: "url"
