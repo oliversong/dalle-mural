@@ -9,7 +9,7 @@
   "description": "",
   "version": "1.0.0",
   "engines": {
-    "node": "16.5.1"
+    "node": "16.x"
   },
   "main": "app.js",
   "repository": {
